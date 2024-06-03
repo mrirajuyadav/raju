@@ -1,0 +1,134 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.navbar{
+width: 100%;
+height: 100px; 
+background-color:red;
+}
+.banner-section{
+    
+    width: 1000%;
+    height: 200%;
+}
+.category-section{
+   
+    width: 100%;
+    height: 150%;
+}
+.category-section span{
+    
+    top:0;
+}
+.arrival-section{
+    
+    width: 100%;
+    height: 150%;
+}
+.discount-section{
+   
+    width: 100%;
+    height: 150%;
+}
+.category-section ul li{
+    list-style: none;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+   
+}
+.category-section ul li img{
+    width: 100px;
+    height: 120px;
+}
+.arrival-section ul li{
+    list-style: none;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+   
+}
+.category-section li:hover{
+    transform: scale(1.2);
+}
+.arrival-section ul li img{
+    width: 100px;
+    height: 100px;
+}
+.arrival-section li:hover{
+    transform:scale(1.2) ;
+}
+.discount-section ul li{
+    list-style: none;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+   padding-left:20px;
+
+}
+.discount-section ul li img{
+    width: 350px;
+    height: 200px;
+    margin: 5px;
+    position: relative;
+    top: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company h2{
+    margin: 20px;
+}
+.products ul li {
+    display: inline-flex;
+    list-style: none;
+    margin: 20px;
+}
+.category-section ul li span{
+    align-items: center;
+}
+.product-details{
+    display: flex;
+}
+.pro-left{
+    width: 100%;
+    max-width: 50%;
+    border: 1px solid black;
+}
+.pro-right{
+    width: 100%;
+    max-width: 50%;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+.prio-button{
+    width: 100%;
+    border: 1px solid black;
+}
+.addbtn , .buybtn{
+    width: 10rem;
+    height: 3rem;
+    margin: 10px;
+
+}
+.addbtn{
+    background-color: orange;
+}
+.buybtn{
+    background-color:aquamarine
+    ;
+}
